@@ -1,0 +1,186 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 110px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.sitelogo {
+    display: inline;
+    margin-top: 13px;
+
+}
+
+.bignav {
+    display: grid;
+}
+
+
+
+.bar1-items {
+    display: flex;
+    list-style: none;
+
+
+}
+
+#login {
+
+    font-size: 20px;
+    height: 24px;
+    width: 40px;
+    background-color: #213d77;
+    padding-left: 9px;
+    color: white;
+
+}
+
+.items1-gap {
+    padding: 0 30px;
+    margin-top: 25px;
+}
+
+
+.bar2-items {
+    display: flex;
+    list-style: none;
+    margin-left: 93px;
+}
+
+#exclusive {
+    font-size: 19px;
+    background-color: #213d77;
+    padding-left: 5px;
+    color: white;
+    padding-right: 7px;
+}
+
+#exclusive:hover {}
+
+#customize-train {
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.items2-gap {
+    padding: 0 15px;
+
+}
+
+.irctclogo {
+    margin-top: 13px;
+}
+
+#train {
+    width: 100vw;
+    height: 100vh;
+}
+
+.box1 {
+
+    position: absolute;
+    top: 156px;
+    left: 10vw;
+    height: 35px;
+    width: 20vw;
+    background-color: #6c93e6;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#box1-link {
+
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+
+}
+
+.box2 {
+
+    position: absolute;
+    top: 156px;
+    left: 31vw;
+    height: 35px;
+    width: 20vw;
+    background-color: #6c93e6;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#box2-link {
+
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+
+}
+
+.box3 {
+    height: 50vh;
+    width: 41vw;
+    background-color: white;
+    position: absolute;
+    top: 28vh;
+    left: 10vw;
+}
+
+.sub-box1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-ticket {
+    text-transform: uppercase;
+    color: #213d77;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 2vw;
+    padding-top: 7px;
+
+}
+
+input {
+    font-family: 'FontAwesome';
+    margin-left: 120px;
+    margin-top: 25px;
+    height: 7vh;
+    width: 12vw;
+}
+
+.form-outer {
+    display: grid;
+    width: 30vw;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+#first-part {
+    width: 15vw;
+}
+
+#third-part {
+    width: 15vw;
+}
+
+#fivth-part {
+    width: 15vw;
+}
